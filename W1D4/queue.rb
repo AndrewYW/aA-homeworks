@@ -7,6 +7,7 @@ class Queue
 
     def enqueue(el)
         array.unshift(el)
+        el
     end
 
     def dequeue

@@ -6,6 +6,7 @@ class Stack
 
     def push(el)
         array << el
+        el
     end
 
     def pop
